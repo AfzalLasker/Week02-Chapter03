@@ -1,0 +1,9 @@
+Cricket Quiz Score Report for Afzal Hossain
+
+------------------------------------
+
+Total questions are                4
+
+Total correct answers:             1
+
+Correct answer ratio:          25.00%

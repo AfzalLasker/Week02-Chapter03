@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nourinferdaus/Documents/ITCS 2530/Week02 Chapter03/cricket_1.2'
+relocations:     []
+...
