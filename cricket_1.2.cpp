@@ -1,3 +1,11 @@
+// Program: Cricket Quiz
+// Description: This program runs a short cricket quiz that asks the user four questions related to cricket. It checks answers,
+// counts the correct answers, and shows the final score and percentage.
+
+// Afzal H Lasker
+
+
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -40,7 +48,7 @@ int main()
     << "Enter your answer (must include decimals): ";
 
     cin >> ticket_cost;
-
+    // Input check for wrong data type
     if (cin.fail()) {           // Check if user entered the wrong input type
         cin.clear();            // Clear the error state
         cin.ignore(100, '\n');  // remove the wrong input from memory
@@ -66,7 +74,7 @@ int main()
     "Give your answer in number: ";
 
     cin >> answer_2;
-
+    // Input check for wrong data type
     if (cin.fail()) {               // Check if user entered the wrong input type    
         cin.clear();                // Clear the error state                     
         cin.ignore(100, '\n');      // remove the invalid input from memory             
